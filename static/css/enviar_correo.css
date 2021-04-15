@@ -1,0 +1,23 @@
+section#email{
+	margin: 120px 0 0;
+	font-family: 'Helvetica', sans-serif;
+}
+
+section#email form{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#email div .cont{
+	border: 2px solid #000;
+	padding: 60px 60px 60px;
+	margin: 220px 0 110px;
+	background-color: #CD853F;
+}
+
+h1 {
+	display: flex;
+    justify-content: space-evenly;
+}

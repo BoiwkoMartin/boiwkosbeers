@@ -1,0 +1,22 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/center.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/search.css' %}">
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<section id = 'search'>
+	<div class = 'center'>
+		<div class = 'container'>
+			<div class = "search-box">
+				<form method="get" action="/buscar/">
+					<input class ="search "type="text" name="busca" placeholder="Buscar una cerveza">
+					<button type = "submit" class ="search-btn">
+						<i class = "fa fa-search"></i>
+					</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+
+

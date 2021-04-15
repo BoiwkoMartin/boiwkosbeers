@@ -1,0 +1,16 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/center.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/enviar_correo.css' %}">
+
+<section id = "email">
+	<div class = "center">
+		<div class = 'cont'>
+			<h1>Contacto</h1>
+			<br><br>
+			<form id="correo" method="post" action="">{% csrf_token %}
+				{{formulario.as_p}}
+				<p><input type="submit" value="Enviar"></p>
+			</form>
+		</div>
+	</div>
+</section>

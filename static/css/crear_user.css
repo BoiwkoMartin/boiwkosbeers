@@ -1,0 +1,22 @@
+section#crear_user{
+	font-family: 'Helvetica', sans-serif;
+}
+
+section#crear_user form{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#crear_user div .cont{
+	border: 2px solid #000;
+	padding: 60px 60px 60px;
+	margin: 220px 0 110px;
+	background-color: #CD853F;
+}
+
+h1 {
+	display: flex;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,97 @@
+section#cervezas{
+	margin: 20px 0 50px;
+}
+
+section#cervezas .card{
+	background-color: #fff;
+    border-radius: 10px;
+   	background: #CD853F	; 
+	margin: 0 0 25px; 
+	overflow: hidden; 
+	padding: 20px; 
+	border-radius: 35px 0px 35px 0px; 
+	-moz-border-radius: 35px 0px 35px 0px; 
+	-webkit-border-radius: 35px 0px 35px 0px; 
+	border: 2px solid #CD853F;
+}
+
+section#cervezas img{
+	max-width: 300px;
+	min-width: 300px;
+	max-height: 300px;
+	min-height: 300px;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	overflow: hidden; 
+	padding: 20px; 
+	border-radius: 35px 0px 35px 0px; 
+	-moz-border-radius: 35px 0px 35px 0px; 
+	-webkit-border-radius: 35px 0px 35px 0px; 
+	border: 2px solid #CD853F;
+}
+
+h1{
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 700;
+}
+
+p {
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	font-size: 16px;
+	line-height: 22px;
+	font-family: 'Helvetica', sans-serif;
+	margin:0;
+}
+
+@media screen and (min-width: 980px){
+	section#cervezas .card{
+	display: flex;
+	justify-content: center;
+	background-color: #fff;
+    border-radius: 10px;
+   	background: #FFF	; 
+	margin: 0 10px 25px; 
+	overflow: hidden; 
+	padding: 20px; 
+	border-radius: 35px;
+	border: 1px solid #CD853F;
+	width: 45%;
+	}
+
+	section#cervezas div .card:hover{
+		box-shadow: 0px 0px 10px 5px #CD853F;
+	}
+
+	section#cervezas div .contenido{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+
+	}
+
+	section#cervezas img {
+	max-width: 300px;
+	min-width: 300px;
+	max-height: 300px;
+	min-height: 300px;
+	display: flex;
+	justify-content: center;
+	border-radius:0px; 
+	-moz-border-radius: 0px; 
+	-webkit-border-radius:0px; 
+	border: none;
+	}
+
+	section#cervezas div .contenedor{
+		display: flex;
+		flex-wrap: wrap;
+	}
+}

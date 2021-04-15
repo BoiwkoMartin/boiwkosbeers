@@ -1,0 +1,28 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/center.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/elementos_encontrados.css' %}">
+
+<section id ="beers"> 
+	<div class = "center">
+		{% if cervezas%}
+			<div class = "contenedor">
+				{% for cerveza in cervezas %}
+				<div class = "card">
+					<img src="{{cerveza.imagen.url}}">
+					<div class = 'contenido'>
+						<h1>{{cerveza.nombre}}</h1>
+						<p>{{cerveza.descripcion}}</p>
+						<p>${{cerveza.precio}}</p>
+						{% if cerveza.cantidad <= 5%}
+							<p id="ultimas">Apurate, ultimas {{cerveza.cantidad}} unidades!</p>
+						{% endif %}
+						<p>Producida por: {{cerveza.marca}}</p>
+					</div>
+				</div>
+				{% endfor %}
+			</div>
+		{% else %}
+			<p> Lo siento, no tengo esa cerveza.</p>
+		{% endif %}
+	</div>
+</section>

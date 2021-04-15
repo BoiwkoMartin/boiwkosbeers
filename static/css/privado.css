@@ -1,0 +1,17 @@
+section#privado{
+	font-family: 'Helvetica', sans-serif;
+}
+
+section#privado div{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div .cont{
+	border: 2px solid #000;
+	padding: 60px 60px 60px;
+	margin: 220px 0 110px;
+	background-color: #CD853F;
+}

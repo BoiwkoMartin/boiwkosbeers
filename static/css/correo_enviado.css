@@ -1,0 +1,21 @@
+section#x1{
+	margin: 115px 0 0 ;
+}
+
+section#x1{
+	font-family: 'Helvetica', sans-serif;
+}
+
+section#x1 div{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#x1 div .content{
+	border: 2px solid #000;
+	padding: 60px 60px 60px;
+	margin: 220px 0 110px;
+	background-color: #CD853F;
+}

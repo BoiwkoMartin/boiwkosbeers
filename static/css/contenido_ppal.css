@@ -1,0 +1,108 @@
+section#home{
+	position: relative;
+	margin-top: 125px;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Helvetica', sans-serif;
+}
+
+div .content_h1{
+	font-family: 'Helvetica',sans-serif; 
+	color: #ffffff; 
+	font-size: 18px; 
+	font-weight: 400; 
+	text-align: center; 
+	background: #CD853F	; 
+	margin: 10px 0 25px; 
+	overflow: hidden; 
+	padding: 20px; 
+	border-radius: 35px 0px 35px 0px; 
+	-moz-border-radius: 35px 0px 35px 0px; 
+	-webkit-border-radius: 35px 0px 35px 0px; 
+	border: 2px solid #CD853F;
+}
+
+div .content_h12{
+	font-family: 'Helvetica',sans-serif; 
+	color: #ffffff; 
+	font-size: 18px; 
+	font-weight: 400; 
+	text-align: center; 
+	background: #CD853F	; 
+	margin: 0 0 25px; 
+	overflow: hidden; 
+	padding: 20px; 
+	border-radius: 35px 0px 35px 0px; 
+	-moz-border-radius: 35px 0px 35px 0px; 
+	-webkit-border-radius: 35px 0px 35px 0px; 
+	border: 2px solid #CD853F;
+}
+div .content_p{
+	font-family: 'Helvetica',sans-serif; 
+	color: #ffffff; 
+	font-size: 18px; 
+	font-weight: 400; 
+	text-align: center; 
+	background: #CD853F	; 
+	margin: 0 0 25px; 
+	overflow: hidden; 
+	padding: 20px; 
+	border-radius: 35px 0px 35px 0px; 
+	-moz-border-radius: 35px 0px 35px 0px; 
+	-webkit-border-radius: 35px 0px 35px 0px; 
+	border: 2px solid #CD853F;
+}
+
+.ppal_mobile{
+	margin: auto; 
+	display: block;
+	border-radius: 35px 0px 35px 0px; 
+	-moz-border-radius: 35px 0px 35px 0px; 
+	-webkit-border-radius: 35px 0px 35px 0px; 
+	border: 2px solid #CD853F;
+}
+
+.ppal_desktop {
+	display: none;
+}
+
+.video{
+	display: none;
+}
+
+@media screen and (min-width: 980px){
+	section#home{
+		background-image: url(/static/img/espuma_cerveza.jpg);
+		margin-top: 100px;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		height: 642px;
+	}
+	.ppal_desktop {
+		margin: 0;
+		display: flex;
+		z-index: -1
+	}
+
+	.video{
+		display: flex;
+	}
+
+	.ppal_mobile{
+		display: none;
+	}
+
+	div .contenedor {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-direction: row-reverse;
+	}
+
+	div .contenido{
+		margin-right: 20px;
+	}
+}

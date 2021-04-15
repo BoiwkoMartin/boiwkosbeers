@@ -1,0 +1,8 @@
+section#server_error{
+	margin: 100px 0 0;
+	background-image: url(/static/img/500.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 642px;
+}

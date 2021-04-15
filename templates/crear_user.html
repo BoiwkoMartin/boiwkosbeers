@@ -1,0 +1,16 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/center.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/crear_user.css' %}">
+
+<section id = "crear_user">
+	<div class = "center">
+		<div class = "cont">
+			<h1>Registrarse</h1>
+			<br><br>
+			<form method="post" action="">{% csrf_token %}
+				<table>{{formulario.as_table}}</table>
+				<p><input type="submit" value="Registrarse"></p>
+			</form>
+		</div>
+	</div>
+</section>

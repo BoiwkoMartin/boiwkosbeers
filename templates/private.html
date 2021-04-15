@@ -1,0 +1,15 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/center.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/privado.css' %}">
+<meta charset="utf-8">
+
+<section id = "privado">
+	<div class = "center">
+		<div class = "cont">
+			<p>Bienvenido {{usuario.username|upper}}</p>
+			<p>Para volver a inicio click <a href="/">aquí.</a></p>
+			<p>Para volver a productos click <a href="/productos">aquí.</a></p>
+			<p>Si deseas ponerte en contacto con nosotros <a href="/contacto">aquí.</a></p>
+		</div>
+	</div>
+</section>
